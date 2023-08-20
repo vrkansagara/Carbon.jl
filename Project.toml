@@ -1,7 +1,7 @@
 name = "Carbon"
 uuid = "ce4355db-cad5-401f-8b77-e16432d50abd"
 authors = ["Vallabh Kansagara"]
-version = "1.0.0-DEV"
+version = "1.0.0"
 
 [compat]
 julia = "1"

@@ -1,5 +1,8 @@
 module Carbon
 
-# Write your package code here.
+# export, using, import statements are usually here; we discuss these below
+export greet, version
 
-end
+include("functions.jl")
+
+end # module
