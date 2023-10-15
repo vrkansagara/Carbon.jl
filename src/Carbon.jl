@@ -1,8 +1,9 @@
 module Carbon
 
 # export, using, import statements are usually here; we discuss these below
-export greet, version
+export greet, version, now
 
-include("functions.jl")
+include(joinpath(pwd(), "src/utilities.jl"))
+include(joinpath(pwd(), "src/functions.jl"))
 
 end # module

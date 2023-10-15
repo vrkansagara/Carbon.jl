@@ -3,6 +3,9 @@ uuid = "ce4355db-cad5-401f-8b77-e16432d50abd"
 authors = ["Vallabh Kansagara"]
 version = "1.0.1"
 
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+
 [compat]
 julia = "1"
 
