@@ -7,6 +7,6 @@ using Test
 end
 
 @testset "Carbon.jl" begin
-    @test Carbon.greet() != "Hello world!"
-    @test Carbon.greet() == "Hello Carbon"
+    @test Carbon.greet("Test") != "Hello world!"
+    @test Carbon.greet("Vallabhdas Kansagara") == "Hello Vallabhdas Kansagara"
 end
