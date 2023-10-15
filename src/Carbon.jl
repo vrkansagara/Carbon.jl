@@ -1,7 +1,6 @@
 """
 Loads dependencies and bootstraps a Carbon.
 """
-
 module Carbon
 
 include("utilities.jl")
