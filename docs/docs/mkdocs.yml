@@ -1,0 +1,12 @@
+site_name:        Carbon Document
+repo_url:         https://github.com/vrkansagara/Carbon.jl
+site_description: A simple Julia API extension for DateTime.
+site_author:      Vallabhdas Kansagara
+
+theme: readthedocs
+docs_dir: 'src'
+
+pages:
+  - Home: index.md
+
+google_analytics: []

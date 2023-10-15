@@ -2,9 +2,11 @@ name = "Carbon"
 uuid = "c6408494-260b-4f8d-aa04-3305a96ccce5"
 authors = ["Vallabhdas Kansagara <vrkansagara@gmail.com>"]
 version = "1.0.0"
-[compat]
-julia = "1.9"
 
 [deps]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.9"
