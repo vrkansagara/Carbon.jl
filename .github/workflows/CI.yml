@@ -5,7 +5,12 @@ on:
       - develop
     tags: ['*']
   pull_request:
-    - master
+    types:
+      - opened
+      - reopened
+    branches:
+      - 'releases/**'
+      - 'master'
 concurrency:
   # Skip intermediate builds: always.
   # Cancel intermediate builds: only if it is a pull request build.
