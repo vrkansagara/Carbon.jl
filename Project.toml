@@ -1,16 +1,7 @@
 name = "Carbon"
-uuid = "ce4355db-cad5-401f-8b77-e16432d50abd"
-authors = ["Vallabh Kansagara"]
-version = "1.0.1"
+uuid = "c6408494-260b-4f8d-aa04-3305a96ccce5"
+authors = ["Vallabhdas Kansagara <vrkansagara@gmail.com>"]
+version = "1.0.0"
 
 [deps]
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
-
-[compat]
-julia = "1"
-
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-[targets]
-test = ["Test"]
