@@ -2,9 +2,11 @@
 
 ### Development instruction
 - Go to clone directory
-- using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.precompile()
+- using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.precompile() ; push!(LOAD_PATH, ".")
 - using Carbon; Carbon.version()
-- push!(LOAD_PATH, ".") For load file at REPL on fly change
+- using Pkg; using Dates ; Pkg.gc(;collect_delay=Dates.Day(0))
+
+Pkg.resolve()
 
 #TL;DR
 - or single line command to work with clone project is `julia --project=@.`
