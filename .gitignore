@@ -1,1 +1,8 @@
-Manifest.toml/
+docs/build
+.tags
+.DS_Store
+.vscode
+test/build
+Manifest.toml
+test/cache
+test/sessions
