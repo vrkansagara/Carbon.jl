@@ -4,6 +4,25 @@ A simple Julia API extension for DateTime.
 
 This package will provide you easy remember work flow with the DateTime interface of julia `DateTime`.
 
+### Example
+- Add package using `import Pkg; Pkg.add("Tz")`
+- import package using `import Tz`
+- you can work with following example.
+
+(1) Get package version
+```bash
+Tz.version()
+```
+
+(2) Gree the message
+```bash
+Tz.greet()
+```
+
+(1) Get current timestamp
+```bash
+Tz.now()
+```
 
 ### Development instruction
 - Go to clone directory
