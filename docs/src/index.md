@@ -1,5 +1,5 @@
 ```@meta
-CurrentModule = Carbon
+CurrentModule = Tz
 ```
 
 ### A simple Julia API extension for DateTime.

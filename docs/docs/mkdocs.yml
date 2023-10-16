@@ -1,5 +1,5 @@
-site_name:        Carbon Document
-repo_url:         https://github.com/vrkansagara/Carbon.jl
+site_name:        Tz Document
+repo_url:         https://github.com/vrkansagara/Tz.jl
 site_description: A simple Julia API extension for DateTime.
 site_author:      Vallabhdas Kansagara
 

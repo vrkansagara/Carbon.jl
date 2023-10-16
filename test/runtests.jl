@@ -1,12 +1,12 @@
-using Carbon
+using Tz
 using Test
 
-@testset "Carbon.version" begin
-    @test Carbon.version() == "1.0.0"
-    @test Carbon.version() != "1.0.1"
+@testset "Tz.version" begin
+    @test Tz.version() == "1.0.0"
+    @test Tz.version() != "1.0.1"
 end
 
-@testset "Carbon.jl" begin
-    @test Carbon.greet("Test") != "Hello world!"
-    @test Carbon.greet("Vallabhdas Kansagara") == "Hello Vallabhdas Kansagara"
+@testset "Tz.jl" begin
+    @test Tz.greet("Test") != "Hello world!"
+    @test Tz.greet("Vallabhdas Kansagara") == "Hello Vallabhdas Kansagara"
 end

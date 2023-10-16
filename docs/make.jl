@@ -1,11 +1,11 @@
 push!(LOAD_PATH, "../src/")
 
 
-using Documenter, Carbon
+using Documenter, Tz
 
 
 makedocs(
-    sitename="Carbon Documentation",
+    sitename="Tz Documentation",
     format=Documenter.HTML(prettyurls=false),
     pages=[
         "Home" => "index.md",
@@ -13,5 +13,5 @@ makedocs(
 )
 
 deploydocs(
-    repo="github.com/vrkansagara/Carbon.jl.git",
+    repo="github.com/vrkansagara/Tz.jl.git",
 )

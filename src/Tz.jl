@@ -1,7 +1,7 @@
 """
-Loads dependencies and bootstraps a Carbon.
+Loads dependencies and bootstraps a Tz.
 """
-module Carbon
+module Tz
 
 include("utilities.jl")
 include("functions.jl")
