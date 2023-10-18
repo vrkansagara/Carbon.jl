@@ -36,4 +36,10 @@ Pkg.resolve()
 - or single line command to work with clone project is `julia --project=@.`
 - using Tz; Tz.version()
 
+### How can I use this package directly from github.
+There are two ways using Julia REPL
+
+(1) you can use ]add <github URL> or
+(2) ]dev <github URL> from Julia REPL
+
 [![Build Status](https://github.com/vrkansagara/Tz.jl/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/vrkansagara/Tz.jl/actions/workflows/CI.yml?query=branch%3Amaster)
